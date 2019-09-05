@@ -1,2 +1,2 @@
-# vazhenin-rs.github.io
+# Vazhenin Roman
 Personal projects
