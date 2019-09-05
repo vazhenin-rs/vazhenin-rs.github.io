@@ -32,7 +32,7 @@ button {
 
 .container {
   width: 1160px;
-  margin: 0 140px;
+  margin: 0 auto;
   padding: 0 20px;
 }
 
@@ -78,7 +78,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-bottom: 80px;
   padding-top: 50px;
-  width: 1440px;
+  width: 100%;
   background-color: #eeeeee;
 }
 
@@ -167,6 +167,10 @@ input[type="radio"].visually-hidden {
 
 .main-logo img:active {
   opacity: 0.3;
+}
+
+.slider {
+  padding: 0;
 }
 
 .slider-offer {
@@ -477,10 +481,6 @@ input[type="radio"].visually-hidden {
 
 .contacts {
   position: relative;
-}
-
-.contacts .map-wrapper {
-  width: 1440px;
 }
 
 .contacts-card {
