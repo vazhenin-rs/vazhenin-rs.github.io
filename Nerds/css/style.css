@@ -32,7 +32,7 @@ button {
 
 .container {
   width: 1160px;
-  margin: 0 auto;
+  margin: 0 140px;
   padding: 0 20px;
 }
 
@@ -167,10 +167,6 @@ input[type="radio"].visually-hidden {
 
 .main-logo img:active {
   opacity: 0.3;
-}
-
-.slider {
-  padding: 0;
 }
 
 .slider-offer {
