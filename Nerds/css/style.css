@@ -78,7 +78,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-bottom: 80px;
   padding-top: 50px;
-  width: 100%;
+  width: 1440px;
   background-color: #eeeeee;
 }
 
@@ -481,6 +481,10 @@ input[type="radio"].visually-hidden {
 
 .contacts {
   position: relative;
+}
+
+.contacts .map-wrapper {
+  width: 1440px;
 }
 
 .contacts-card {
