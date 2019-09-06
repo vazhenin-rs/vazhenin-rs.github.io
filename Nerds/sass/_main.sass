@@ -1,5 +1,5 @@
 .slider
-   padding: 0
+   
    &-offer
       padding-top: 75px
       padding-bottom: 83px
@@ -20,15 +20,18 @@
          display: inline-block
          padding-left: 54px
          padding-right: 54px
-   &__slide1
-      background: url(../img/slide1.png) 94% 100% no-repeat
-      background-size: auto
-   &__slide2
-      background: url(../img/slide2.png) 100% 100% no-repeat
-      background-size: auto
-   &__slide3
-      background: url(../img/slide3.png) 100% 100% no-repeat
-      background-size: auto
+   &__item
+      &_bg1
+         background: url(../img/slide1.png) 94% 100% no-repeat
+         background-size: auto
+   &__item
+      &_bg2
+         background: url(../img/slide2.png) 100% 100% no-repeat
+         background-size: auto
+   &__item
+      &_bg3
+         background: url(../img/slide3.png) 100% 100% no-repeat
+         background-size: auto
       
 .slider-dots-custom
    display: flex
@@ -209,7 +212,7 @@
 .contacts
    position: relative
    .map-wrapper
-      
+      width: 1440px
    &-card
       position: absolute
       top: 54px

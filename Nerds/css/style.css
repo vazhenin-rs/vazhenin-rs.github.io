@@ -32,7 +32,7 @@ button {
 
 .container {
   width: 1160px;
-  margin: 0 auto;
+  margin: 0 140px;
   padding: 0 20px;
 }
 
@@ -78,7 +78,7 @@ input[type="radio"].visually-hidden {
   margin: 0;
   margin-bottom: 80px;
   padding-top: 50px;
-  width: 100%;
+  width: 1440px;
   background-color: #eeeeee;
 }
 
@@ -169,10 +169,6 @@ input[type="radio"].visually-hidden {
   opacity: 0.3;
 }
 
-.slider {
-  padding: 0;
-}
-
 .slider-offer {
   padding-top: 75px;
   padding-bottom: 83px;
@@ -201,17 +197,17 @@ input[type="radio"].visually-hidden {
   padding-right: 54px;
 }
 
-.slider__slide1 {
+.slider__item_bg1 {
   background: url("../img/slide1.png") 94% 100% no-repeat;
   background-size: auto;
 }
 
-.slider__slide2 {
+.slider__item_bg2 {
   background: url("../img/slide2.png") 100% 100% no-repeat;
   background-size: auto;
 }
 
-.slider__slide3 {
+.slider__item_bg3 {
   background: url("../img/slide3.png") 100% 100% no-repeat;
   background-size: auto;
 }
@@ -481,6 +477,10 @@ input[type="radio"].visually-hidden {
 
 .contacts {
   position: relative;
+}
+
+.contacts .map-wrapper {
+  width: 1440px;
 }
 
 .contacts-card {
