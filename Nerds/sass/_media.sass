@@ -1,0 +1,114 @@
+@media (max-width: 1200px)
+   .container
+      width: 980px
+      margin: 0 auto
+      padding: 0 10px
+
+   .slider
+      &__item
+         &_bg1
+            background: url(../img/slide1.png) 100% 100% no-repeat
+            background-size: 60%
+      &__item
+         &_bg2
+            background: url(../img/slide2.png) 100% 100% no-repeat
+            background-size: 60%
+      &__item
+         &_bg3
+            background: url(../img/slide3.png) 100% 100% no-repeat
+            background-size: 60%
+
+@media (max-width: 992px)
+   body
+      font-size: 14px
+      line-height: 22px
+   .container
+      width: 740px
+      margin: 0 auto
+      padding: 0 10px
+   
+   .main-navigation
+      &__site
+         width: 370px
+      &__user
+         .cart-link
+            &::before
+               left: -25px
+   
+   .slider
+      &__item
+         &_bg1
+            background: url(../img/slide1.png) 100% 100% no-repeat
+            background-size: 60%
+      &__item
+         &_bg2
+            background: url(../img/slide2.png) 100% 100% no-repeat
+            background-size: 60%
+      &__item
+         &_bg3
+            background: url(../img/slide3.png) 100% 100% no-repeat
+            background-size: 60%
+   .slider-dots-custom
+      bottom: 46px
+   .services
+      &-card
+         width: 230px
+         h3
+            font-size: 20px
+
+   .about
+      &-text
+         width: 410px
+         &__title
+            font-size: 35px
+            line-height: 40px
+      &-features
+         width: 300px
+         &__number
+            font-size: 35px
+            &:after
+               font-size: 20px
+         b
+            font-size: 14px
+            line-height: 16px
+   .portfolio
+      &__item
+         width: 150px
+   .contacts
+      &-social
+         &__buttons
+            margin-right: 80px
+            width: 200px
+         &__button
+            width: 59px
+            height: 59px
+         &__text
+            b
+               font-size: 30px
+               line-height: 30px
+            span
+               font-size: 14px
+               line-height: 20px
+@media (max-width: 768px)
+   .container
+      width: 560px
+      margin: 0 auto
+      padding: 0 10px
+   .main-navigation
+      &__site
+         width: 270px
+   .services
+      flex-direction: column
+      &-card
+         margin: 0 auto
+         margin-bottom: 50px
+         width: 300px
+         &__button
+            width: 100%
+   .about
+      flex-direction: column
+      &-text
+         width: 100%
+         margin-bottom: 50px
+      &-features
+         margin: 0 auto

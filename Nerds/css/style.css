@@ -584,6 +584,141 @@ input[type="radio"].visually-hidden {
   line-height: 22px;
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #000000;
+  background-color: #fff;
+  -webkit-box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
+  box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
+}
+
+.modal-write {
+  width: 760px;
+  padding: 63px 100px 80px 100px;
+}
+
+.modal-write__form input[type="text"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 360px;
+  margin-bottom: 35px;
+  padding: 18px 15px 19px 15px;
+  font: inherit;
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  border: 2px solid #d7dcde;
+  background-color: #ffffff;
+}
+
+.modal-write__form textarea {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  resize: none;
+  margin-bottom: 47px;
+  padding: 14px 15px;
+  width: 760px;
+  height: 118px;
+  font: inherit;
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  border: 2px solid #d7dcde;
+  background-color: #ffffff;
+}
+
+.modal-write__fields {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-write__button {
+  padding-left: 83px;
+  padding-right: 83px;
+}
+
+.modal-write h2 {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.modal-write p {
+  margin: 0;
+  padding: 0;
+}
+
+.modal-write label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.modal__show {
+  display: block;
+}
+
+.modal__close {
+  position: absolute;
+  font-size: 0;
+  top: 73px;
+  right: 91px;
+  width: 21px;
+  height: 21px;
+  background-color: #fff;
+  opacity: 0.3;
+}
+
+.modal__close:hover {
+  opacity: 1;
+}
+
+.modal__close:active {
+  opacity: 0.1;
+}
+
+.modal__close::before,
+.modal__close::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -3px;
+  width: 27px;
+  height: 4px;
+  border-radius: 5px;
+  background-color: #fb565a;
+}
+
+.modal__close::before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.modal__close::after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
 @media (max-width: 1200px) {
   .container {
     width: 980px;
